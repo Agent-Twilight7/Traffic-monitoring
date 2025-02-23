@@ -59,24 +59,6 @@ npm start
 ```
 The frontend will be available at http://localhost:3000/.
 
-### 📂 Repository Structure
-```sh
-📦 project-root/
-│── 📂 backend/            # Flask backend (YOLO inference, API)
-│   ├── app.py             # Main Flask server
-│   ├── models/            # YOLO model files
-│   ├── uploads/           # Uploaded video storage
-│   ├── requirements.txt   # Python dependencies
-│
-│── 📂 frontend/           # React frontend
-│   ├── src/
-│   │   ├── components/    # React UI components
-│   │   │   ├── VideoStream.js
-│   │   ├── styles.css     # Styling for UI
-│   ├── package.json       # React dependencies
-│
-│── README.md  
-```
 ### Summary
 The Flask backend runs YOLOv8 for object detection.
 The React frontend provides a UI to choose between a live webcam or an uploaded video for detection.
