@@ -1,7 +1,14 @@
-# 🚀 AI Object Detection with YOLOv8
 
-This project implements **real-time object detection** using **Flask**, **React.js**, and **YOLOv8**.  
-It allows users to detect objects from a **live webcam feed** or an **uploaded video**.
+# 📌 Project Description
+
+This project is a **real-time object detection system** that leverages **YOLOv8 (You Only Look Once)** for fast and accurate object detection.  
+The system is built using **Flask** for the backend and **React.js** for the frontend, allowing users to:  
+
+🔹 **Stream live video from a webcam** for real-time object detection.  
+🔹 **Upload a video file**, which is processed frame-by-frame to detect objects.  
+🔹 **View detected objects** with bounding boxes and labels drawn on the video feed.  
+
+The backend uses **OpenCV** to process video frames and **Ultralytics YOLOv8** for inference, while the frontend provides an **intuitive interface** for users to interact with the system.
 
 ---
 
